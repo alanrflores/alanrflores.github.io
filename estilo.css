@@ -1,0 +1,57 @@
+
+* {
+margin: 0 ;
+padding: 0 ;
+}
+
+
+
+
+body {
+
+    background: #000000;
+
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.col-6 h2{
+
+	color: #808080;
+}
+
+
+.col-6 p{
+
+	color: #808080;
+}
+
+
+.row{
+
+	padding: 25px;
+	margin: 25px;
+
+}
+
+
+
+
+
+.footer h2{
+
+	font-size: 1.2em;
+	color: #808080;
+	
+}
+
+
+
+.footer p{
+
+	font-size: 1.1em;
+	color: #808080;
+}
+
+
+
