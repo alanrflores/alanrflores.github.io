@@ -1,0 +1,93 @@
+
+* {
+margin: 0 ;
+padding: 0 ;
+}
+
+
+
+
+body {
+
+
+
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+
+
+.footer {
+	background-color:none ;
+	margin: 10px 5px 10px 5px;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+
+
+.footer_div{
+
+	display: grid;
+	height: 80px;
+	align-items: center;
+	grid-template-columns: repeat(8, 1fr);
+
+	
+
+}
+
+
+.footer h3 {
+
+	grid-column: 3 / 6;
+	flex-direction: row;
+	font-size: 1.2em;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+.footer a{
+
+	flex-direction: row;
+	grid-column: 7 /9;
+	justify-content: space-around;
+	
+}
+
+
+
+
+
+.footer .social-network .fab{
+
+	font-size: 1.7em;
+	margin-right: 5px;
+	color:#000000;
+}
+
+
+
+.footer .social-network .instagram{
+    
+	
+	text-decoration: none;
+	font-family:'oswald', sans-serif;
+	color: #000000;
+	font-size: 1.3em;
+	
+
+
+	
+}
+	
+
+
+
