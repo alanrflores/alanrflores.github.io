@@ -14,17 +14,55 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+.shadow-lg {
 
-.col-6 h2{
+	font-size: 1.1em;
+	cursor: pointer;
 
-	color: #808080;
 }
 
 
-.col-6 p{
+.nav-item:hover{
 
-	color: #808080;
+	transform: scale(1.1);
 }
+
+.dropdown-item:hover{
+
+	transform: scale(1);
+}
+
+.navbar-brand img{
+
+	grid-column: 3 / 4;
+	animation-name: expandir;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-delay: .5s;
+	animation-timing-function: ease;
+}
+@keyframes expandir {
+
+0% {
+transform: scale(.5);
+}
+
+50%{
+	transform: scale(.7);
+
+}
+
+100%{
+	transform: scale(1);
+}
+
+
+
+}
+
+
+
+
 
 
 .row{
@@ -54,4 +92,22 @@ body {
 }
 
 
+.col i{
+
+	font-size: 1.5em;
+
+}
+
+.col a{
+	text-decoration: none;
+	padding: 5px;
+	margin:5px;
+}
+
+
+.input-group {
+
+	margin: 10px;
+	padding: 10px;
+}
 
