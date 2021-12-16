@@ -1,0 +1,139 @@
+@import "variables";
+
+* {
+margin: 0 ;
+padding: 0 ;
+}
+
+
+
+
+body {
+
+    background: $background;
+
+	font: $font-family;
+}
+
+
+
+.div {
+
+
+    shadow-lg {
+
+	    font: $font-size;
+	    cursor: pointer;
+
+}
+
+}
+
+
+.nav-item:hover{
+
+	transform: scale(1.1);
+}
+
+.dropdown-item:hover{
+
+	transform: scale(1);
+}
+
+.navbar-brand {
+
+
+            img{
+
+	          grid-column: 3 / 4;
+
+	          animation-name: expandir;
+
+	          animation-duration: 3s;
+
+	          animation-iteration-count: infinite;
+
+	          animation-delay: .5s;
+
+	          animation-timing-function: ease;
+
+	             }
+ 
+	          }
+
+@keyframes expandir {
+
+0% {
+transform: scale(.5);
+}
+
+50%{
+	transform: scale(.7);
+
+}
+
+100%{
+	transform: scale(1);
+}
+
+
+
+}
+
+
+
+
+
+
+.container {
+
+     row{
+
+	    padding: 25px;
+	    margin: 25px;
+
+        }
+
+    }
+
+
+
+
+
+.footer {
+
+
+
+         h2{
+
+	      font-size: 1.2em;
+	      color: $color-gray;
+	
+
+            p{
+
+	           font-size: 1.1em;
+	            color: $color-gray;
+
+
+
+            i{
+
+	           font-size: 1.5em;
+
+
+
+             a{
+	            text-decoration: none;
+	            padding: 5px;
+	            margin:5px;
+                     
+                }
+                  
+                }
+
+                }
+
+           }
+
+           }
