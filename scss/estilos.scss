@@ -1,9 +1,11 @@
+
 @import "variables";
 
 * {
 margin: 0 ;
 padding: 0 ;
 }
+
 
 
 
@@ -81,24 +83,15 @@ transform: scale(.5);
 }
 
 
+.container{
 
 
 
 
-.container {
-
-     row{
-
-	    padding: 25px;
-	    margin: 25px;
-
-        }
-
-    }
-
-
-
-
+	row {
+		padding: 15px;
+	}
+}
 
 .footer {
 
