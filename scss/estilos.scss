@@ -1,9 +1,13 @@
 
 @import "variables";
+@import "main";
 
 * {
-margin: 0 ;
-padding: 0 ;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font: $font-family;
+
 }
 
 
@@ -19,17 +23,10 @@ body {
 
 
 
-.div {
 
 
-    shadow-lg {
 
-	    font: $font-size;
-	    cursor: pointer;
 
-}
-
-}
 
 
 .nav-item:hover{
@@ -60,8 +57,12 @@ body {
 	          animation-timing-function: ease;
 
 	             }
+
+
+}
+
  
-	          }
+	         
 
 @keyframes expandir {
 
@@ -70,63 +71,21 @@ transform: scale(.5);
 }
 
 50%{
-	transform: scale(.7);
+	transform: scale(1.2);
 
 }
 
 100%{
-	transform: scale(1);
+	transform: scale(1.5);
+
+
 }
 
-
-
 }
 
-
-.container{
-
+@import "footer";
 
 
 
-	row {
-		padding: 15px;
-	}
-}
-
-.footer {
 
 
-
-         h2{
-
-	      font-size: 1.2em;
-	      color: $color-gray;
-	
-
-            p{
-
-	           font-size: 1.1em;
-	            color: $color-gray;
-
-
-
-            i{
-
-	           font-size: 1.5em;
-
-
-
-             a{
-	            text-decoration: none;
-	            padding: 5px;
-	            margin:5px;
-                     
-                }
-                  
-                }
-
-                }
-
-           }
-
-           }

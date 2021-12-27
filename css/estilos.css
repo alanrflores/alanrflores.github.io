@@ -1,14 +1,30 @@
+main .container .row {
+  padding: 10px;
+  margin: 15px; }
+  main .container .row h1 {
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+    margin: 10px; }
+
+section h2, section h2 p, div h2 section p {
+  font-family: "Oswald", sans-serif;
+  padding: 5px;
+  margin: 5px; }
+
+div h2, section h2 div p, div h2 p {
+  font-family: "Oswald", sans-serif;
+  padding: 10px;
+  margin: 10px; }
+
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box;
+  font: "Oswald", sans-serif; }
 
 body {
   background: #000000;
   font: "Oswald", sans-serif; }
-
-.div shadow-lg {
-  font: 1.1em;
-  cursor: pointer; }
 
 .nav-item:hover {
   transform: scale(1.1); }
@@ -28,22 +44,40 @@ body {
   0% {
     transform: scale(0.5); }
   50% {
-    transform: scale(0.7); }
+    transform: scale(1.2); }
   100% {
-    transform: scale(1); } }
+    transform: scale(1.5); } }
 
-.container row {
-  padding: 15px; }
-
-.footer h2 {
-  font-size: 1.2em;
-  color: #808080; }
-  .footer h2 p {
-    font-size: 1.1em;
-    color: #808080; }
-    .footer h2 p i {
-      font-size: 1.5em; }
-      .footer h2 p i a {
-        text-decoration: none;
-        padding: 5px;
-        margin: 5px; }
+footer {
+  background-color: #24262b;
+  padding: 60px, 0;
+  margin: 10px; }
+  footer .content-info h3 {
+    font-size: 1.2em;
+    text-decoration: underline  red;
+    padding: 0;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 2px;
+    text-align: justify !important;
+    width: 300px;
+    margin: 10px auto; }
+  footer .content-info .social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: start; }
+    footer .content-info .social-links a {
+      padding: 5px; }
+  footer ul {
+    text-align: justify;
+    width: 300px;
+    margin: 0 auto;
+    padding: 0; }
+    footer ul a {
+      text-decoration: none;
+      font-size: 15px;
+      padding: 8px;
+      color: #808080;
+      transition: all 0.3s ease; }
+      footer ul a:hover {
+        color: #ffffff;
+        padding-left: 10px; }
