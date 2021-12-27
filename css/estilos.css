@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: "Oswald", sans-serif; }
+
+body {
+  background: #000000;
+  font: "Oswald", sans-serif; }
+
 main .container .row {
   padding: 10px;
   margin: 15px; }
@@ -15,16 +25,6 @@ div h2, section h2 div p, div h2 p {
   font-family: "Oswald", sans-serif;
   padding: 10px;
   margin: 10px; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font: "Oswald", sans-serif; }
-
-body {
-  background: #000000;
-  font: "Oswald", sans-serif; }
 
 .nav-item:hover {
   transform: scale(1.1); }
@@ -54,13 +54,13 @@ footer {
   margin: 10px; }
   footer .content-info h3 {
     font-size: 1.2em;
-    text-decoration: underline  red;
     padding: 0;
+    width: 300px;
+    margin: 10px auto;
+    text-decoration: underline  red;
     text-decoration-thickness: 3px;
     text-underline-offset: 2px;
-    text-align: justify !important;
-    width: 300px;
-    margin: 10px auto; }
+    text-align: justify !important; }
   footer .content-info .social-links {
     display: flex;
     flex-direction: row;
