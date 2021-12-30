@@ -12,6 +12,13 @@
 }
 
 
+@mixin media-up ($breakpoint) {
+    @media screen and (min-width: map-get ($breakpoints, $breakpoint)) {
+      @content;  
+    }
+}
+
+
 
 footer{
 
@@ -41,12 +48,19 @@ footer{
 
 
         	.social-links{
+                background-color: $azul-palido;
 
         		display: flex;
 
         		flex-direction: row;
 
         		justify-content:start;
+
+                transition: all 400ms ease;
+
+                padding: 4px;
+
+                border-radius: 12px;
 
 
         		a{
@@ -97,8 +111,11 @@ footer{
 
         		}
 
+
         	}
         }
+
+
 
 		}
 

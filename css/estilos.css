@@ -62,9 +62,13 @@ footer {
     text-underline-offset: 2px;
     text-align: justify !important; }
   footer .content-info .social-links {
+    background-color: #F0F8FF;
     display: flex;
     flex-direction: row;
-    justify-content: start; }
+    justify-content: start;
+    transition: all 400ms ease;
+    padding: 4px;
+    border-radius: 12px; }
     footer .content-info .social-links a {
       padding: 5px; }
   footer ul {
