@@ -20,15 +20,25 @@
 
 
 
+
+
+
 footer{
 
-		background-color:$color-dark-blue;
+        position: absolute; 
+        height: 100%  
+        bottom: 0 0;
+    	background-color:$color-dark-blue;
+        padding: 60px, 0;
 
-		padding: 60px, 0;
-
-                margin: 10px;
+                
 
         .content-info {
+
+           
+
+
+           
 
 
         	h3{

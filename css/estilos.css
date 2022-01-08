@@ -5,6 +5,7 @@
   font: "Oswald", sans-serif; }
 
 body {
+  position: relative;
   background: #000000;
   font: "Oswald", sans-serif; }
 
@@ -49,9 +50,11 @@ div h2, section h2 div p, div h2 p {
     transform: scale(1.5); } }
 
 footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0, 0;
   background-color: #24262b;
-  padding: 60px, 0;
-  margin: 10px; }
+  padding: 60px, 0; }
   footer .content-info h3 {
     font-size: 1.2em;
     padding: 0;
