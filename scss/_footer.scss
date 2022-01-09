@@ -28,7 +28,7 @@ footer{
         position: absolute; 
         height: 100%  
         bottom: 0 0;
-    	background-color:$color-dark-blue;
+        background-color:$color-dark-blue;
         padding: 60px, 0;
 
                 
@@ -41,30 +41,30 @@ footer{
            
 
 
-        	h3{
+            h3{
 
-        		font-size: 1.2em;
+                font-size: 1.2em;
 
-        		padding: 0;
+                padding: 0;
 
-        	 	width: 300px;
+                width: 300px;
 
-        	 	margin:10px auto;
+                margin:10px auto;
 
                         @include text;
 
 
-        	}
+            }
 
 
-        	.social-links{
+            .social-links{
                 background-color: $azul-palido;
 
-        		display: flex;
+                display: flex;
 
-        		flex-direction: row;
+                flex-direction: row;
 
-        		justify-content:start;
+                justify-content:start;
 
                 transition: all 400ms ease;
 
@@ -73,13 +73,13 @@ footer{
                 border-radius: 12px;
 
 
-        		a{
+                a{
 
-        			
-        			padding: 5px;
-        		}
+                    
+                    padding: 5px;
+                }
 
-        	}
+            }
 
         }
 
@@ -87,47 +87,45 @@ footer{
 
         ul {
 
-        	 text-align: justify;
+             text-align: justify;
 
-        	 width: 300px;
+             width: 300px;
 
-        	 margin:0 auto;
+             margin:0 auto;
 
-        	 padding: 0;
+             padding: 0;
 
 
 
-        	a {
+            a {
                  
-        		text-decoration: none;
+                text-decoration: none;
 
-        		font-size: 15px;
+                font-size: 15px;
 
-        		padding: 8px;
+                padding: 8px;
 
-        		color: 	#808080;
+                color:  #808080;
 
-        		transition: all 0.3s ease;
-
-
-        		&:hover {
-
-        			color: #ffffff;
-
-        			padding-left: 10px;
+                transition: all 0.3s ease;
 
 
+                &:hover {
+
+                    color: #ffffff;
+
+                    padding-left: 10px;
 
 
-        		}
 
 
-        	}
+                }
+
+
+            }
         }
 
 
 
-		}
-
-
+        }
 
