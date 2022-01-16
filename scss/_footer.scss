@@ -4,20 +4,12 @@
 
    text-decoration: underline  red;   
 
-   text-decoration-thickness: 3px;
+   text-decoration-thickness: 1.3px;
 
-   text-underline-offset: 2px;
+   text-underline-offset: none;
 
-   text-align: justify !important;    
+   text-align: justify;    
 }
-
-
-@mixin media-up ($breakpoint) {
-    @media screen and (min-width: map-get ($breakpoints, $breakpoint)) {
-      @content;  
-    }
-}
-
 
 
 
@@ -25,107 +17,54 @@
 
 footer{
 
-        position: absolute; 
-        height: 100%  
-        bottom: 0 0;
-        background-color:$color-dark-blue;
-        padding: 60px, 0;
+        width: 100%;
+        background-color: #2A3132;
 
-                
-
-        .content-info {
-
-           
-
-
-           
-
-
-            h3{
-
-                font-size: 1.2em;
-
-                padding: 0;
-
-                width: 300px;
-
-                margin:10px auto;
-
-                        @include text;
-
-
-            }
-
-
+        div{
             .social-links{
-                background-color: $azul-palido;
 
-                display: flex;
+                a {
 
-                flex-direction: row;
+                    i{
 
-                justify-content:start;
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: #fff;
+                margin-right: 10px;
+                background-color: #0d2033;
+                text-align: center;
+                transition: all 300ms ease;
 
-                transition: all 400ms ease;
-
-                padding: 4px;
-
-                border-radius: 12px;
-
-
-                a{
-
-                    
-                    padding: 5px;
+                &:hover{
+                    color: #00ffff;
                 }
-
+                }
             }
-
         }
+    }
+        
+        ul{
+
+            li{
+
+                @include text;         
+            }
+        }    
+}
+
+
+
 
     
+     
 
-        ul {
-
-             text-align: justify;
-
-             width: 300px;
-
-             margin:0 auto;
-
-             padding: 0;
+    
+ 
 
 
 
-            a {
-                 
-                text-decoration: none;
-
-                font-size: 15px;
-
-                padding: 8px;
-
-                color:  #808080;
-
-                transition: all 0.3s ease;
-
-
-                &:hover {
-
-                    color: #ffffff;
-
-                    padding-left: 10px;
-
-
-
-
-                }
-
-
-            }
-        }
-
-
-
-        }
+    
 
