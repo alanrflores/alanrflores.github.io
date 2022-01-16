@@ -45,8 +45,6 @@ main .gallery {
     grid-auto-rows: 215px; }
     main .gallery .gallery_item:first-of-type {
       grid-column: 2 / span 2; }
-    main .gallery .gallery_item:nth-of-type(7n + 1) {
-      grid-column: 2 / span 2; }
     main .gallery .gallery_item:hover {
       filter: brightness(0.3); }
     main .gallery .gallery_item img {
